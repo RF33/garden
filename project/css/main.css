@@ -1,0 +1,304 @@
+/* BASIC STYLES */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer#footer {
+  background: none repeat scroll 0 0  #CFEFFF;
+}
+  
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(23, 119, 44);
+  /*align-items: center;*/
+  font-size: 26pt;
+  text-align: center;
+  -webkit-border-radius: 40px 40px 40px 04px;
+  border-radius: 40px 40px 40px 04px;
+}
+
+p {
+  color: black;
+  font-size: 16pt;
+  size: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: black;
+  font-size: 12pt;
+}
+
+td p {
+  color: black;
+  font-size: 16pt;
+  size: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background */
+#bg {
+  background-color: #CFEFFF;
+  background:#CFEFFF;
+}
+
+/* centre three pictures */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;      
+}
+    
+.social {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* NAV BAR */
+nav {
+  border-bottom: solid 2px white;
+  height: 50px;
+  top: 0;
+  padding-top: 0;
+  width: 100%;
+}
+
+nav a{
+  float: left;
+  font-size: 16px;
+  color:#666666;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Search bar */
+nav form {
+  float: right;
+  font-size: 16px;
+  color:#666666;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+  
+.buttons {
+  text-align: center;
+  /* margin-bottom: 300px; */
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown a{
+  float: left;
+  font-size: 16px;
+  color:#666666;
+  text-align: center;
+  text-decoration: none;
+  background-color: #CFEFFF;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #9abaca;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  float: none;
+  color: #666666;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Custom bodies*/
+.news_body {
+  padding: 0px 20px;
+  background-color: white;
+  border: solid 10px #CFEFFF;
+}
+.news_body h2{
+  color: rgb(23, 119, 44);
+}
+.news_body h3{
+  color: rgb(23, 119, 44);
+}
+.news_body p{
+  font-size: 14pt;
+  
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.news_body img{
+  float: right;
+  left: 30px;
+  width: 300px;
+  height:auto;
+  background-color: white;
+  padding-left:20px;
+}
+
+/* footer */
+footer  {
+  color: #CFEFFF;
+  background-color: #CFEFFF;
+  border-top: solid 2px white;
+  height: 50px;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+  
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+ 
+footer ul {
+  float: left;
+  color: #666666;
+  padding: 1px;
+}
+  
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+
+
+  /* MEDIA QUERIES */
+  
+  @media screen and (max-width: 400px) {
+
+    .container {
+      width: 33%;
+
+    }
+   
+   li.nav-links a {
+      display: none;
+    }
+    
+   
+   .buttons {
+     display: none;
+     /* padding-top: 30px; */
+     /* margin-bottom: 300px; */
+   }
+    
+  
+    
+   footer {
+     bottom: 0;
+   }
+    
+   footer ul {
+     float: none;
+     padding-bottom: 2px;
+      
+   }
+    
+   .footer-left {
+     text-align: center;
+     margin: auto; 
+     padding-top: 10px;
+      
+   }
+    
+   .footer-right {
+     float: none;
+     text-align: center;
+     
+   }
+  }
+  
+  @media screen and (max-width: 565px) {
+
+    .container {
+      width: 33%;
+
+    }
+   
+    li.nav-links a {
+      display: none;
+    }
+    
+         
+   .buttons {
+     display: none;
+     /* padding-top: 30px; */
+     /* margin-bottom: 300px; */
+     
+   }
+
+   footer {
+    bottom: 0;
+  }
+   
+  footer ul {
+    float: none;
+    padding-bottom: 2px;
+     
+  }
+   
+  .footer-left {
+    text-align: center;
+    margin: auto; 
+    padding-top: 10px;
+     
+  }
+   
+  .footer-right {
+    float: none;
+    text-align: center;
+    
+  }
+    
+
+  } 
+  
+  .main_i {
+    
+    width: 550px;
+    height: 300px;
+    align-items: left;
+  }
