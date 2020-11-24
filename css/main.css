@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-  color: black;
+  color:#666666;
   font-size: 16pt;
   size: 100px;
   align-items: center;
@@ -31,12 +31,12 @@ p {
 }
 
 a {
-  color: black;
+  color: #666666;
   font-size: 12pt;
 }
 
 td p {
-  color: black;
+  color: #666666;
   font-size: 16pt;
   size: 100px;
   align-items: center;
