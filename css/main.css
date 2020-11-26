@@ -13,14 +13,16 @@ ul {
   list-style: none;
 }
 
+
 h1 {
   color: rgb(23, 119, 44);
-  /*align-items: center;*/
   font-size: 36pt;
   text-align: center;
   -webkit-border-radius: 40px 40px 40px 04px;
   border-radius: 40px 40px 40px 04px;
-}
+} */
+
+
 
 p {
   color:#666666;
@@ -298,7 +300,10 @@ footer ul a:hover {
   
   .main_i {
     
-    width: 650px;
-    height: 500px;
+    width: auto; 
+    height: 490px;
     align-items: left;
   }
+
+
+ 
