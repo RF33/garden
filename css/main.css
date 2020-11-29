@@ -1,4 +1,23 @@
 /* BASIC STYLES */
+
+h1 {
+  color: rgb(23, 119, 44);
+  font-size: 36pt;
+  font-family: 'Book Antiqua', sans-serif;
+  text-align: center;
+  -webkit-border-radius: 40px 40px 40px 04px;
+  border-radius: 40px 40px 40px 04px;
+} 
+
+h2{
+  color: rgb(23, 119, 44);
+  font-size: 24pt;
+  text-align: center;
+  font-family: 'Book Antiqua', sans-serif;
+  -webkit-border-radius: 40px 40px 40px 04px;
+  border-radius: 40px 40px 40px 04px;
+} 
+
 body {
   margin: 0;
   padding: 0;
@@ -12,15 +31,6 @@ footer#footer {
 ul {
   list-style: none;
 }
-
-
-h1 {
-  color: rgb(23, 119, 44);
-  font-size: 36pt;
-  text-align: center;
-  -webkit-border-radius: 40px 40px 40px 04px;
-  border-radius: 40px 40px 40px 04px;
-} */
 
 
 
@@ -37,13 +47,22 @@ a {
   font-size: 12pt;
 }
 
-td p {
-  color: #666666;
-  font-size: 16pt;
-  size: 100px;
-  align-items: center;
-  justify-content: center;
+table {
+  text-align: center;
+  vertical-align:top;
+
 }
+
+td  p{
+  color: #666666;
+  font-size: 20pt;
+  vertical-align:top;
+   width: 70%;
+
+  margin: 0 auto; /* same as margin: 0 25%;  */
+  
+}
+
 
 /* Background */
 #bg {
@@ -301,7 +320,7 @@ footer ul a:hover {
   .main_i {
     
     width: auto; 
-    height: 490px;
+    height: 430px;
     align-items: left;
   }
 
