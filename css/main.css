@@ -24,6 +24,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+
+main {
+    height: 10cm;
+}
+
 footer#footer {
   background: none repeat scroll 0 0  #CFEFFF;
 }
@@ -171,8 +177,8 @@ nav form {
 /* Custom bodies*/
 .news_body {
   padding: 0px 20px;
-  background-color: white;
-  border: solid 10px #CFEFFF;
+  background-color: #CFEFFF;
+  border: solid 10px white;
 }
 .news_body h2{
   color: rgb(23, 119, 44);
@@ -185,14 +191,14 @@ nav form {
   
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: #CFEFFF;
 }
 .news_body img{
   float: right;
   left: 30px;
   width: 300px;
   height:auto;
-  background-color: white;
+  background-color :#CFEFFF;
   padding-left:20px;
 }
 
@@ -205,7 +211,7 @@ footer  {
   bottom: 0;
   padding-bottom: 0;
   width: 100%;
-}
+ }
   
 footer ul li {
   display: inline;
@@ -320,7 +326,7 @@ footer ul a:hover {
   .main_i {
     
     width: auto; 
-    height: 430px;
+    height: 300px;
     align-items: left;
   }
 
